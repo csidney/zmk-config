@@ -9,7 +9,6 @@
 #include <dt-bindings/zmk/bt.h>
 #include <dt-bindings/zmk/ext_power.h>
 
-
 / {
     behaviors {
         raise_lower: raise_lower {
@@ -24,7 +23,6 @@
         };
     };
 
-    keymap {
     keymap {
         compatible = "zmk,keymap";
 
