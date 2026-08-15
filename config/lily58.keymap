@@ -9,20 +9,22 @@
 #include <dt-bindings/zmk/bt.h>
 #include <dt-bindings/zmk/ext_power.h>
 
-behaviors {
-    raise_lower: raise_lower {
-        compatible = "zmk,behavior-sensor-rotate";
-        #sensor-binding-cells = <0>;
-        bindings = <&to 2>, <&to 1>;
-    };
-    back_to_base: back_to_base {
-        compatible = "zmk,behavior-sensor-rotate";
-        #sensor-binding-cells = <0>;
-        bindings = <&to 0>, <&to 0>;
-    };
-};
 
 / {
+    behaviors {
+        raise_lower: raise_lower {
+            compatible = "zmk,behavior-sensor-rotate";
+            #sensor-binding-cells = <0>;
+            bindings = <&to 2>, <&to 1>;
+        };
+        back_to_base: back_to_base {
+            compatible = "zmk,behavior-sensor-rotate";
+            #sensor-binding-cells = <0>;
+            bindings = <&to 0>, <&to 0>;
+        };
+    };
+
+    keymap {
     keymap {
         compatible = "zmk,keymap";
 
