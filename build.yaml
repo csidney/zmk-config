@@ -23,3 +23,6 @@ include:
     shield: lily58_left
   - board: mikoto@7.2
     shield: lily58_right
+  - board: mikoto@7.2
+    shield: settings_reset
+    artifact-name: mikoto_settings_reset
