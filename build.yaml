@@ -17,12 +17,12 @@
 #     cmake-args: -DCONFIG_ZMK_STUDIO=y
 #     artifact-name: corne_left_with_studio
 #
----
+#
 include:
   - board: mikoto@7.2
-    shield: lily58_left nice_oled nice_view_gem
+    shield: lily58_left nice_oled
   - board: mikoto@7.2
-    shield: lily58_right nice_oled nice_view_gem
+    shield: lily58_right nice_oled
   - board: mikoto@7.2
     shield: settings_reset
     artifact-name: mikoto_settings_reset
